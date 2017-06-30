@@ -34,5 +34,5 @@ Deployment flow is following
 # TODO
 
 * documentation more
-* Available at AWS, GCP and other public cloud service
+* Support AWS, GCP and other public cloud service
 * for openstack, cloudstack
