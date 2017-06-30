@@ -23,7 +23,18 @@ Galaxy cluster and above.
 
 ### Master_script
 
+```
 https://raw.githubusercontent.com/manabuishii/azure-files/master/scripts_for_setup/galaxy_SGE/master_script.sh
+```
+
+
+### Worker_script
+
+```
+https://raw.githubusercontent.com/manabuishii/azure-files/master/scripts_for_setup/galaxy_SGE/exec_script.sh
+```
+
+## How to start Galaxy
 
 login and just type
 
@@ -32,10 +43,6 @@ login and just type
 ```
 
 TODO automatically start `/etc/init.d/docker-galaxy`
-
-### Worker_script
-
-https://raw.githubusercontent.com/manabuishii/azure-files/master/scripts_for_setup/galaxy_SGE/exec_script.sh
 
 
 
