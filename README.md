@@ -17,6 +17,28 @@ docker , job scheduler , automatic machine up and down system.
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
+## Galaxy deployment
+
+Galaxy cluster and above.
+
+### Master_script
+
+https://raw.githubusercontent.com/manabuishii/azure-files/master/scripts_for_setup/galaxy_SGE/master_script.sh
+
+login and just type
+
+```
+/etc/init.d/docker-galaxy start
+```
+
+TODO automatically start `/etc/init.d/docker-galaxy`
+
+### Worker_script
+
+https://raw.githubusercontent.com/manabuishii/azure-files/master/scripts_for_setup/galaxy_SGE/exec_script.sh
+
+
+
 # Flow
 
 Deployment flow is following
